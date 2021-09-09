@@ -22,8 +22,15 @@ window.addEventListener('load', () => {
 
 // Agregamos los listeners para la barra de busqueda
 
-    document.querySelector('#barra-busqueda').addEventListener('input',(evento) => {
+    document.querySelector('#search-bar').addEventListener('input',(evento) => {
         const busqueda = evento.target.value;  
-        grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda));
+        grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda))
+    });
+
+    //Agragaremos un listener para las imagenes
+    const overlay = document.getElementById('overlay');
+    document.querySelectorAll('.grid.item img').forEach((elemento) =>{
+        const ruta = elemento.getAttribute('src');
+        const descripcion = elemento.parentNode.parentNode
     });
 });
