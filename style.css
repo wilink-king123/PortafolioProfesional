@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #f3f3f3;
+    background: #000000;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,27 +20,43 @@ a{
 }
 
 /* header */
-header {
-    padding: 40px 0;
+.header {
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+}
+
+.header.visible{
+    opacity: 1;
 }
 
 header .logo{
     text-align: center;
-    margin-bottom: 40px;
+    margin:100px 0px 40px 0px;
+}
+
+header .logo h1{
+    color: #ffffff;
 }
 
 header .logo p{
     color: #9b9b9b;
 }
 
+header .logo img{
+    margin: 20px 0px 60px 0px;
+    border-radius: 40px;
+    opacity: 1;
+    width: 200px;
+}
+
 header form{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 header .search-bar{
+    margin: 30px 0px 0px 0px;
     width: 70%;
     height: 40px;
     line-height: 40px;
@@ -67,7 +83,7 @@ header .categories a{
 }
 
 header .categories a.active{
-    color: #000;
+    color: #fff;
 }
 
 /* GRID */
@@ -75,7 +91,7 @@ header .categories a.active{
     position: relative;
     width: 100%;
     opacity: 0;
-    transition: opacity 0.5s linear 1s;
+    transition: opacity 0.5s linear 2s;
     /*  */
     /*  */
 }
@@ -98,7 +114,6 @@ header .categories a.active{
 .grid .item img {
     border-radius: 10px;
     width: 100%;
-    height: 150px;
     cursor: pointer;
     vertical-align: top;
 }
@@ -176,7 +191,7 @@ footer .redes-sociales a{
 }
 
 footer .redes-sociales .twitter{background: #1da1f2;}
-footer .redes-sociales .facebook{background: #3b5998;}
+footer .redes-sociales .facebook{background: #4c6ef5;}
 footer .redes-sociales .instagram{background: #c13584;}
 
 footer .redes-sociales a i{
@@ -204,7 +219,7 @@ footer .creado-por {
     color: #c13584;
 }
 footer .creado-por a{
-    color: #000;
+    color: #fff;
 }
 
 footer .creado-por a:hover{
