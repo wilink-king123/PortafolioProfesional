@@ -23,10 +23,10 @@ window.addEventListener('load', () => {
 
  // Agregamos los listeners para la barra de busqueda
 
-    document.querySelector('#search-bar').addEventListener('input',(evento) => {
-        const busqueda = evento.target.value;  
-        grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda))
-    });
+    // document.querySelector('#search-bar').addEventListener('input',(evento) => {
+    //     const busqueda = evento.target.value;  
+    //     grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda))
+    // });
 
     //Agragaremos un listener para las imagenes
     const overlay = document.getElementById('overlay');
