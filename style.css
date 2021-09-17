@@ -43,7 +43,7 @@ header .logo p{
 }
 
 header .logo img{
-    margin: 20px 0px 60px 0px;
+    margin: 20px 0px 0px 0px;
     border-radius: 40px;
     opacity: 1;
     width: 200px;
@@ -190,9 +190,9 @@ footer .redes-sociales a{
     transition: .3 ease all;
 }
 
-footer .redes-sociales .twitter{background: #1da1f2;}
-footer .redes-sociales .facebook{background: #4c6ef5;}
-footer .redes-sociales .instagram{background: #c13584;}
+/* footer .redes-sociales .twitter{background: #1da1f2;} */
+footer .redes-sociales .linkedin{background: #4c6ef5;}
+footer .redes-sociales .whatsapp{background: #00bfa5;}
 
 footer .redes-sociales a i{
     font-size: 20px;
