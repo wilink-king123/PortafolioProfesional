@@ -39,11 +39,11 @@ header .logo h1{
 }
 
 header .logo p{
-    color: #9b9b9b;
+    color: #ffffff;
 }
 
 header .logo img{
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 20px 0px;
     border-radius: 40px;
     opacity: 1;
     width: 200px;

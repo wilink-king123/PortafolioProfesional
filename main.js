@@ -17,8 +17,8 @@ window.addEventListener('load', () => {
             evento.target.classList.add('active');
 
             const categoria = evento.target.innerHTML.toLowerCase(); 
-            categoria === 'all projects' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`);
-;        })
+            categoria === 'all projects' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`)
+        })
     }); 
 
  // Agregamos los listeners para la barra de busqueda
