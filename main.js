@@ -29,6 +29,7 @@ window.addEventListener('load', () => {
     // });
 
     //Agragaremos un listener para las imagenes
+    
     const overlay = document.getElementById('overlay');
     document.querySelectorAll('.grid .item img').forEach((elemento) =>{
         
