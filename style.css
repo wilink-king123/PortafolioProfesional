@@ -84,7 +84,7 @@ header .categories a{
 } 
 
 header .categories a.active{
-    color: rgba(255, 247, 0, 0.893);
+    color: rgb(255, 204, 0);
     font-size: 25px;
 }
 
@@ -117,7 +117,7 @@ header .categories a.active{
 }
 
 .grid .item img {
-    border-radius: 10px;
+    border-radius: 4px;
     width: 100%;
     cursor:pointer;
     vertical-align: top;

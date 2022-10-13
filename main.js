@@ -16,6 +16,7 @@ window.addEventListener('load', () => {
             enlaces.forEach((enlace) => enlace.classList.remove('active'))
             evento.target.classList.add('active');
 
+            
             const categoria = evento.target.innerHTML.toLowerCase(); 
             categoria === 'all projects' || categoria === 'todos los proyectos' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`)
         })
