@@ -85,7 +85,7 @@ header .categories a{
 
 header .categories a.active{
     color: rgba(255, 247, 0, 0.893);
-    font-size: 27px;
+    font-size: 25px;
 }
 
 /* GRID */
